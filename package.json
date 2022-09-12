@@ -6,7 +6,8 @@
     "dev": "vite --mode development",
     "serve": "vite --mode development",
     "build": "tsc && vite build --mode production",
-    "preview": "vite preview --mode production"
+    "preview": "vite preview --mode production",
+    "json-mock": "json-server mock/db.json"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -19,6 +20,8 @@
     "@vitejs/plugin-react": "^2.1.0",
     "autoprefixer": "^10.4.8",
     "browserslist": "^4.21.3",
+    "caniuse-lite": "^1.0.30001397",
+    "json-server": "^0.17.0",
     "less": "^4.1.3",
     "mockjs": "^1.1.0",
     "postcss": "^8.4.16",
