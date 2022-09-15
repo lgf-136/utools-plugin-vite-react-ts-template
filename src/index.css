@@ -33,6 +33,16 @@
     --color-secondary: theme('colors.blue.200');
   }
 
+  /* .theme-dark {
+    --color-base: 17, 24, 39; 
+    --color-text-base: 243, 244, 246; 
+    --color-off-base: 31, 41, 55;
+    --color-text-muted: 229, 231, 235; 
+    --color-muted-offset: 209, 213, 219; 
+    --color-primary: 147, 197, 253; 
+    --color-secondary: 96, 165, 250; 
+  } */
+
   .theme-solar {
     --color-base: theme('colors.rose.50');
     --color-text-base: theme('colors.gray.800');

@@ -36,6 +36,7 @@ const autoprefixer = require('autoprefixer');
 const stylelint = require('stylelint');
 const postcssPresetEnv = require('postcss-preset-env');
 const pxtorem = require('postcss-pxtorem');
+const tailwindcss = require('tailwindcss');
 
 module.exports = {
   // 不生成 sourcemaps
@@ -59,5 +60,7 @@ module.exports = {
 
     // 单位转换：px->rem
     pxtorem,
+    // 加载 tailwindcss
+    tailwindcss,
   ],
 };
