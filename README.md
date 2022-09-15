@@ -61,3 +61,12 @@ window.utools.screenCapture((imagebase64) => {
 window.utools.screenColorPick(({ hex, rgb }) => {
 // 取色完的回调
 })
+
+
+使用 CSS variables 和Tailwind css实现主题换肤: https://juejin.cn/post/6971708936734900254
+
+```
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+npx tailwindcss init -p
+
+```
